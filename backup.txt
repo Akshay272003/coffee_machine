@@ -1,0 +1,40 @@
+coffee_data = {
+        "latte":{
+            "ingredients":{
+                "milk": 0,
+                "water":100,
+                "sugar":20,
+                "coffee":15,
+                "choco":0
+            },
+            "cost": 50
+        },
+        "cold coffee":{
+            "ingredients":{
+                "milk": 100,
+                "water":70,
+                "sugar":50,
+                "coffee":35,
+                "choco":0
+            },
+            "cost": 200
+        },
+        "choco coffee":{
+            "ingredients":{
+                "milk": 80,
+                "water":50,
+                "sugar":30,
+                "coffee":15,
+                "choco":25
+            },
+            "cost": 100
+        }
+    }
+
+    res = {
+        "water": 3000,
+        "milk": 2000,
+        "choco" : 100,
+        "coffee": 200,
+        "sugar": 500,
+    }
